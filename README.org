@@ -1,0 +1,26 @@
+* Supan
+
+A forest of tree-sitters. Standardised /actually/-editor-agnostic tree-sitter bundles in one easy place.
+
+** Tree-sitter bundles
+
+For lack of a better name a tree-sitter bundle is comprised of:
+- Tree-sitter grammar /(what you'd expect)/
+- Pre-built parser /(what you'd expect)/
+- Comprehensive editor-agnostic highlight queries
+  + Multiple levels of granularity
+- Formatting and indentation queries
+
+** Why?
+
+Currently tree-sitter grammars can be hard to discover for newer and experimental languages (sometimes), but perhaps more importantly the queries for a large chunk of popular languages are either under developed or rely on editor-specific features which completely defeat the purpose of tree-sitter being editor-agnostic.
+
+This is an attempt to create a common (community driven and bloat-free) standard for tree-sitter queries such that a bundle can truly be used in any editor. This also serves as a catalog for tree-sitter grammars already out in the wild to ease in discoverability.
+
+Something something famous xkcd regarding standards.
+
+**** Etymology
+
+A portmanteau of romanised Korean words:
+1. 숲 (n): forest
+2. 앉다 (v): to sit
